@@ -65,12 +65,8 @@
 
 }
 
-
-
-
-
 /*-----------------------------------*\
-  #RESET
+  # preload
 \*-----------------------------------*/
 
 *,
@@ -119,20 +115,6 @@ body {
   line-height: 1.75;
   /* overflow: hidden; */
 }
-
-/* body.loaded { overflow: overlay; }
-
-body.nav-active { overflow: hidden; }
-
-::-webkit-scrollbar { width: 5px; }
-
-::-webkit-scrollbar-track { background: transparent; }
-
-::-webkit-scrollbar-thumb {
-  background-color: var(--white);
-  border-radius: 20px;
-} */
-
 
 /*-----------------------------------*\
   #header and nav
@@ -275,8 +257,6 @@ gap: 10%;
 }
  
 }
-
-
 
 
 /*-----------------------------------*\
@@ -585,7 +565,7 @@ gap: 10%;
 
 
 /*-----------------------------------*\
-  #orojects and portfolio
+  #projects and portfolio
 \*-----------------------------------*/
  
 
@@ -740,9 +720,6 @@ gap: 10%;
 }
 
 .social-link:is(:hover, :focus-visible) { border-color: var(--white); }
-
-
-
 
 
 /*-----------------------------------*\
